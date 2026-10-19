@@ -1,0 +1,4 @@
+Esta pasta receberá os arquivos gerados por `python main.py`:
+- hashes_referencia.csv
+- resultados_experimentos.csv
+- execucao.txt

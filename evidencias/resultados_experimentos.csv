@@ -1,0 +1,7 @@
+﻿experimento;procedimento;objetivo;resultado_observado
+Cadeia inicial;24 blocos + gênesis;válida;cadeia válida
+Avalanche SHA-256;um caractere alterado;hash diferente;"122/256 bits diferentes; 32/32 bytes diferentes"
+Adulteração intermediária;bloco 7;detectar alteração;"hash inválido no bloco 7; hash antigo=9ee4cb49d9a8b764..."
+Recalcular hashes posteriores;bloco 7 até o fim;avaliar limite;"cadeia válida; válida localmente=True"
+Réplicas divergentes;mesmo índice, dados distintos;identificar fork;"A=cadeia válida; B=cadeia válida; hashes diferentes=True"
+Reconciliação simples;cadeia válida mais longa;selecionar réplica;EMPATE: regra não decide

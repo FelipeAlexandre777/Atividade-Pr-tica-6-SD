@@ -1,0 +1,16 @@
+AP6 - Blockchain didática: execução dos experimentos
+==========================================================
+Cadeia principal: 25 blocos (incluindo gênesis). Validação: cadeia válida.
+SHA-256 original:  c2348ef38b585a0c7993336338446f02c6fb58a356b776205616b16d7297e0f9
+SHA-256 alterado:  34c46cdda129ac42b70635b948eff98a04361bd541941db4fb8aa4a5d698eae8
+Bits diferentes: 122/256; bytes diferentes: 32/32.
+Adulteração sem recálculo: hash inválido no bloco 7.
+Após recálculo local: cadeia válida.
+Réplica A válida: True (cadeia válida); tamanho=12.
+Réplica B válida: True (cadeia válida); tamanho=12.
+Hashes finais divergentes: True.
+Regra de reconciliação (cadeia válida mais longa): EMPATE: regra não decide.
+
+Interpretação: o hash detecta alteração quando os hashes armazenados não são atualizados.
+Recalcular localmente todos os hashes pode tornar a cópia adulterada internamente consistente.
+Isso não prova que os dados são verdadeiros; consenso exige regras distribuídas de escolha e validação.
