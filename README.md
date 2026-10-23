@@ -84,7 +84,3 @@ Os testes verificam a cadeia válida, a detecção de adulteração e o efeito d
 ## 5. Diagrama
 
 O arquivo `diagrama.md` contém o diagrama Mermaid das réplicas divergentes e da decisão de reconciliação.
-
-## Limitações
-
-Este é um modelo didático executado em um único computador. Ele não implementa rede P2P, assinaturas digitais, mineração, Proof of Work, Proof of Stake ou consenso real. A simulação demonstra conceitos, mas não deve ser apresentada como uma blockchain de produção.
