@@ -85,30 +85,6 @@ Os testes verificam a cadeia válida, a detecção de adulteração e o efeito d
 
 O arquivo `diagrama.md` contém o diagrama Mermaid das réplicas divergentes e da decisão de reconciliação.
 
-## 6. Git e GitHub
-
-No terminal do VS Code:
-
-```powershell
-git init
-git add .
-git commit -m "Implementa AP6 de blockchain didatica"
-```
-
-Crie um repositório vazio no GitHub. Depois use a URL do seu próprio repositório:
-
-```powershell
-git branch -M main
-git remote add origin URL_DO_SEU_REPOSITORIO
-git push -u origin main
-```
-
-Substitua `URL_DO_SEU_REPOSITORIO` pela URL real apresentada pelo GitHub. Não inclua senhas, tokens ou credenciais no projeto.
-
-## Entrega sugerida
-
-Envie o link do repositório e, se o professor solicitar arquivo compactado, envie o ZIP do projeto. Mantenha as evidências geradas em `evidencias/` depois de executar os experimentos.
-
 ## Limitações
 
 Este é um modelo didático executado em um único computador. Ele não implementa rede P2P, assinaturas digitais, mineração, Proof of Work, Proof of Stake ou consenso real. A simulação demonstra conceitos, mas não deve ser apresentada como uma blockchain de produção.
